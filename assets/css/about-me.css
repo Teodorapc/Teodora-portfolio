@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "kholic";
+    src: url("./../font/kholic.otf") format("truetype");
+}
+  
+/*------ VARIABILI CSS ------*/
+:root {
+  --header-height: 3.5rem;
+    
+/* Colori */
+  --main-color: #5A08BF;
+  --main-color-dark: #2F0464;
+  --main-color-light:#ECDCFF;
+  --accent-color: #ff6833;
+  --body-color: #141419;
+  --background-color: #fbf9fc;
+  --shadow-color: #b8b8ba;
+}
+
+/* Tipografia */
+
+h1 {
+  font-family: "kholic", sans-serif;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 76px;
+}
+
+h2 {
+  font-family: 'kholic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: left;
+}
+  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+  
+html {
+  scroll-behavior: smooth;
+}
+  
+body{
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: var(--background-color);
+}
+  
+.section-title {
+  font-family: 'kholic';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: var(--body-color);
+  text-align: left;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--background-color);
+  z-index: 100;
+  transition: box-shadow 0.4s;
+}
+  
+ul {
+  list-style: none;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+nav {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 218px 0px 150px;
+  gap: 726px;
+}
+  
+.nav-logo {
+  height: 50px;
+  display: flex;
+  padding: 4px;
+}
+  
+.nav ul{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+  
+nav ul li a {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--body-color);
+}
+  
+.nav-links {
+  position: relative;
+  color: var(--body-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+  
+.nav-links::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: var(--main-color);
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: width 0.3s;
+}
+  
+.nav-links:hover {
+  color: var(--main-color);
+}
+  
+.nav-links:hover::after {
+  width: 25%;
+}
+  
+/* Ombra header */
+.shadow-header {
+  box-shadow: 0 1px 16px var(--shadow-color);
+}
+
+/* Sezione Hero */
+ .hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 136px 150px;
+  gap: 62px;
+  width: 1440px;
+  height: 829px;
+}
+
+.hero-section .dx-column p{
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 28px; 
+}
+  
+.hero-section .sx-column img{
+  width: 520px;
+  height: 503px;
+  vertical-align: middle;
+}
+
+/*------ Sezione Info ------*/
+
+/* Istruzione */
+
+.info-container-grid{
+  padding: 36px 150px;
+  gap: 9px;
+}
