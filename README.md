@@ -29,9 +29,3 @@
 <p align="left">Per ottimizzare la visibilità del sito, ho integrato i tag Open Graph, che migliorano la presentazione del mio portfolio quando viene condiviso sui social network.</p>
 
 ###
-
-###
-
-<p>Per ottimizzare la visibilità del sito, ho integrato i tag Open Graph, che migliorano la presentazione del mio portfolio quando viene condiviso sui social network.</p>
-
-###
