@@ -1,0 +1,119 @@
+/*---- Sezione Header ----*/
+.nav-links.active {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+/*---- Sezione Hero ----*/
+.hero-section p {
+  margin-bottom: 0;
+  transition: background-color 0.4s;
+}
+
+/*---- Sezione Info ----*/
+.info-section {
+  margin-bottom: 43px;
+}
+.info-section .section-title{
+  margin-bottom: 27px;
+}
+
+.sx-column-education {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sx-column-education .experience{
+  padding-bottom: 48px;
+}
+
+.experience h3 {
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.experience .body-large{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.experience .body-large-date {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #606060;
+}
+
+
+.dx-column-works {
+  width: 100%;
+}
+
+.dx-column-works .experiences {
+  display: flex;
+  flex-direction: column;
+}
+
+.dx-column-works .experiences .experience {
+  padding-left: 75px;
+  padding-bottom: 48px;
+  border-left: 1px solid #606060;
+  position: relative;
+}
+
+.dx-column-works .experiences .experience .circle {
+  width: 30px;
+  height: 30px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+
+.dx-column-works .experiences .experience h3 {
+  margin-top: 0;
+}
+
+.dx-column-works .experiences .experience ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+/*---- Sezione Tools ----*/
+
+.tool-section{
+  background-color: var(--main-color-light);
+}
+
+.text-container{
+  gap: 28px;
+  width: 433px;
+}
+
+.text-container h2 {
+  font-family: 'kholic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tool p {
+  margin-top: 16px;
+  font-size: 16px;
+  text-align: center;
+}

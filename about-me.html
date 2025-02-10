@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Teodora Pirau Carollo · UX/UI Designer</title>
+
+    <!-- TAG SEO -->
+    <meta property="og:title" content="Teodora Pirau Carollo · Portfolio"/>
+    <meta property="og:description" content="Portfolio di Teodora Pirau Carollo, Graphic e UX/UI Designer"/>
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Teodora Pirau Carollo · Portolio"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="https://teodorapc.github.io/teodora-portfolio/"/>
+
+    <meta property="og:image" content=""/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="627"/>
+    <meta property="og:image:alt" content="Minimal and colorful portfolio cover image."/>
+
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/Favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- LINK FOGLIO DI STILE CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/about-me.css"/>
+    <link rel="stylesheet" href="assets/css/styles-tablet.css"/>
+    <link rel="stylesheet" href="assets/css/styles-mobile.css"/>
+
+    <!-- LINK UNICONS -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- LINK FONT AWESOME ICON -->
+    <script
+      src="https://kit.fontawesome.com/b7f8fed60a.js"
+      crossorigin="anonymous">
+    </script>
+
+     <!-- LINK Tailwind -->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+       tailwind.config = {
+         theme: {
+           screens: {
+             'sm': '428px',
+             'md': '834px',
+             'lg': '1140px'
+           },
+           container: {
+             center: true,
+             padding: {
+               DEFAULT: '20px',
+               md: '0',
+             },
+             screens: {
+               sm: '428px',
+               md: '834px',
+               lg: '1140px',
+               xl: '1140px',
+               '2xl': '1140px'
+             },
+           },
+           extend: {},
+         }
+       }
+     </script>
+
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html">
+          <img src="assets/images/Logo.svg" href="https://teodorapc.github.io/teodora-portfolio/" alt="Logo Teodora Pirau Carollo" class="nav-logo"/>
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="about-me.html" class="nav-links active">Su di me</a>
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#portfolio" class="nav-links">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#contacts" class="nav-links">Contatti</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="hamburger-menu">
+          <i class="uil uil-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+
+      <!-- SEZIONE HERO -->
+      <section class="container" id="hero">
+        <div class="hero-section">
+          <div class="sx-column">
+            <img src="assets/images/about-image.png" alt="Foto profilo">
+          </div>
+  
+          <div class="dx-column">
+            <h1>Piacere di conoscerti!</h1>
+  
+            <p>
+              Ciao! Sono Teodora, una <strong>professionista creativa</strong> con una <strong>laurea 
+              in arti visive</strong> e una specializzazione in corso in <strong>UX/UI design</strong>. 
+              La mia passione per l’arte, nata fin dall’infanzia, si è trasformata 
+              in una solida competenza nel visual design. <br/><br/>
+              Grazie al mio background multidisciplinare, riesco a dare forma a idee 
+              astratte, creando progetti visivi di forte impatto: dall’editoria alle 
+              interfacce digitali, dall’illustrazione ai loghi. Mi dedico con entusiasmo
+              alla progettazione di esperienze visive coinvolgenti e incentrate sull’utente. <br/>
+              I miei punti di forza? <strong>Empatia</strong>, <strong>cura dei dettagli</strong> e una <strong>comunicazione efficace</strong>, 
+              capace di lasciare il segno. <br/><br/>Se cerchi un designer appassionato, contattami: 
+              sarò felice di esplorare nuove opportunità di collaborazione!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEZIONE ISTRUZIONE & ESPERIENZE -->
+      <section class="container info-section flex flex-col md:flex-row gap-y-16" id="info">
+        <div class="sx-column-education">
+          <h2 class="section-title">Istruzione</h2>
+          
+          <div class="experience">
+            <h3>Master in UX/UI Design</h3>
+            <div class="body-large">Start2Impact</div>
+            <p class="body-large-date">gennaio 2022 / presente</p>
+          </div>
+  
+          <div class="experience">
+            <h3>Corso di UX Design, UX/UI Design, Design Systems</h3>
+            <div class="body-large">Fastweb Digital Academy</div>
+            <p class="body-large-date">settembre / ottobre 2023</p>
+          </div>
+  
+          <div class="experience">
+            <h3>Laurea triennale in Arti Visive</h3>
+            <div class="body-large">Accademia di Belle Arti, Palermo</div>
+            <p class="body-large-date">ottobre 2017 / giugno 2021</p>
+          </div>
+        </div>
+
+        <div class="dx-column-works">
+          <h2 class="section-title">Esperienze</h2>
+
+          <div class="experiences">
+            <div class="experience">
+              <h3>Graphic Designer</h3>
+              <div class="body-large">Centro Studi Aurora ETS, Bagheria</div>
+              <p class="body-large-date">settembre 2024 / presente</p>
+              <ul>
+                <li>Creazione e impaginazione di materiali destinati alla stampa, tra cui brochure, 
+                  flyer, locandine, manifesti e calendari.</li>
+                <li>Sviluppo di loghi per iniziative e progetti ad impatto sociale.</li>
+                <li>Collaborazione con il team di marketing per assicurare che tutti i 
+                  materiali grafici siano allineati agli obiettivi e mirati al pubblico di riferimento.</li>
+              </ul>
+
+              <div class="circle"></div>
+            </div>
+  
+            <div class="experience">
+              <h3>Graphic & UI Designer</h3>
+              <div class="body-large">Sara Radice Communication Design Studio, da remoto</div>
+              <p class="body-large-date">settembre 2024 / presente</p>
+              <ul>
+                <li>Progettazione di interfacce intuitive per siti web, applicazioni e piattaforme digitali. 
+                  Utilizzo di strumenti professionali come Figma e Adobe XD per creare prototipi interattivi 
+                  ottimizzando l’esperienza utente.</li>
+                <li>Definizione di design system strutturati, con linee guida, componenti riutilizzabili e 
+                  stili condivisi, per garantire coerenza e scalabilità nei progetti digitali.</li>
+              </ul>
+
+              <div class="circle"></div>
+            </div>
+  
+            <div class="experience">
+              <h3>Grafico e Web Designer</h3>
+              <div class="body-large">Utopìa, Palermo</div>
+              <p class="body-large-date">settembre 2024 / gennaio 2025</p>
+              <ul>
+                <li>Creazione di materiali grafici per la stampa, tra cui flyer, dépliant, 
+                  cartellonistica e altri supporti personalizzati per eventi culturali, fiere e manifestazioni enogastronomiche.</li>
+                <li>Produzione di video brevi e reel promozionali, ottimizzati per massimizzare la visibilità sulle piattaforme social.</li>
+                <li>Progettazione di piattaforma web educativa per la navigazione consapevole e responsabile del digitale.</li>
+              </ul>
+
+              <div class="circle"></div>
+            </div>
+  
+            <div class="experience">
+              <h3>Assistente di Design del Tessuto, Decorazione e Design dell’Accessorio - Progettazione della Moda </h3>
+              <div class="body-large">Accademia di Belle Arti, Palermo</div>
+              <p class="body-large-date">ottobre 2021 / febbraio 2023</p>
+              <ul>
+                <li>Attività di supporto disciplinare e tecnico secondo le necessità di docente e studenti.</li>
+                <li>Sviluppo e creazione di progetti e mostre concordate con il docente.</li>
+                <li>Gestione di contenuti e approfondimenti didattici.</li>
+              </ul>
+
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- SEZIONE TOOLS -->
+      <section class="tool-section" id="tool">
+        <div class="container flex flex-col md:flex-row py-24">
+          <div class="text-container w-full">
+            <h2>Tools</h2>
+            <p>Un rapido elenco di alcuni strumenti di progettazione e ricerca che utilizzo.</p>
+          </div>
+  
+          <div class="w-full py-6 grid grid-cols-4 gap-4 md:grid-cols-3 md:gap-8">
+  
+            <div class="tool">
+              <img src="assets/images/icon/Adobe_Illustrator_CC_icon.svg.png" alt="Adobe Illustrator">
+              <p>Adobe <br/> Illustrator</p>
+            </div>
+  
+            <div class="tool">
+              <img src="assets/images/icon/Adobe_Photoshop_CC_icon.svg.png" alt="Adobe Photoshop">
+              <p>Adobe <br/> Photoshop</p>
+            </div>
+  
+            <div class="tool">
+              <img src="assets/images/icon/Adobe_InDesign_CC_icon.svg.png" alt="Adobe InDesign">
+              <p>Adobe <br/> InDesign</p>
+            </div>  
+  
+            <div class="tool">
+              <img src="assets/images/icon/Adobe_Premiere_Pro_CC_icon.svg.png" alt="Adobe Premiere Pro">
+              <p>Adobe <br/> Premiere Pro</p>
+            </div>  
+  
+            <div class="tool">
+              <img src="assets/images/icon/Adobe_XD_CC_icon.svg.png" alt="Adobe XD">
+              <p>Adobe XD</p>
+            </div>  
+  
+            <div class="tool">
+              <img src="assets/images/icon/Figma-logo.svg.png" alt="Figma">
+              <p>Figma</p>
+            </div>  
+  
+            <div class="tool">
+              <img src="assets/images/icon/Symbol.svg" alt="Miro">
+              <p>Miro</p>
+            </div>  
+  
+            <div class="tool">
+              <img src="assets/images/icon/procreateappicon-1664671639075.webp" alt="Procreate">
+              <p>Procreate</p>
+            </div> 
+  
+            <div class="tool">
+              <img src="assets/images/icon/trello-svgrepo-com.svg" alt="Trello">
+              <p>Trello</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!------ FOOTER ------>
+    <footer class="footer">
+      <div class="footer-container container">
+        <p class="mb-6 md:mb-0">© 2025 Teodora Pirau Carollo. Tutti i diritti riservati</p>
+        <ul class="footer-links">
+          <li><a href="about-me.html" class="footer-link">Su di me</a></li>
+          <li><a href="./index.html#portfolio" class="footer-link">Portfolio</a></li>
+          <li><a href="./index.html#contact" class="footer-link">Contatti</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!------ SCROLL TO TOP ------>
+    <a href="#" class="scrollup" id="scroll-up" role="button">
+      <i class="uil uil-angle-up"></i>
+    </a>
+
+    <!------ LINK JS ------>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+ </html>

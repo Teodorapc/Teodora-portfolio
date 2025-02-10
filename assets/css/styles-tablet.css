@@ -1,0 +1,51 @@
+@media (min-width: 576px) and (max-width: 834px) {
+  .container {
+    max-width: 834px;
+  }
+}
+
+@media (max-width: 834px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 84px 0;
+  }
+  
+  .container {
+    padding: 0 57px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .dx-column-works .experiences .experience {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .dx-column-works .experiences .experience .circle {
+    display: none;
+  }
+
+  #contacts{
+    padding: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1139px) {
+  #contacts {
+    margin-top: 350px;
+  }
+
+
+  #contacts .left {
+    top: -340px;
+    left: calc(50% - 190px);
+  }
+}
